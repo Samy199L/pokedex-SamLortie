@@ -1,0 +1,90 @@
+
+.back {
+    -fx-background-color: linear-gradient(to bottom right, #ff5151, #d62828);
+    -fx-padding: 15;
+}
+
+
+
+.zone-details {
+    -fx-background-color: #ff5a5a;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-padding: 30;
+}
+
+
+
+.nom-pokemon {
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Agency FB";
+    -fx-text-fill: white;
+
+
+    -fx-effect: dropshadow(gaussian, black, 8, 0.5, 2, 2);
+}
+
+
+
+.zone-info {
+    -fx-font-size: 22px;
+    -fx-font-family: "Agency FB";
+
+    -fx-control-inner-background: #a3f0ff;
+    -fx-background-color: #a3f0ff;
+    -fx-text-alignment: center;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+
+    -fx-padding: 15;
+}
+
+
+
+.liste-poke {
+    -fx-font-size: 22px;
+    -fx-font-family: "Agency FB";
+
+    -fx-background-color: #eeeeee;
+    -fx-background-radius: 20;
+
+    -fx-border-radius: 20;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 3;
+}
+.text-field {
+    -fx-font-size: 18px;
+    -fx-background-radius: 15;
+    -fx-padding: 8;
+}
+
+
+.liste-poke .list-cell {
+    -fx-padding: 10;
+}
+
+
+
+.liste-poke .list-cell:selected {
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #d62828;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 15;
+}
+
+.button:hover {
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+}
+
+.root {
+    -fx-font-family: "OCR A Extended";
+}
